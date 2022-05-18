@@ -2,7 +2,7 @@ syntax = "proto3";
 package postman;
 import "google/protobuf/empty.proto";
 
-option go_package = "git.badhouseplants.net/BadHouseplants/postman-service/pkg/proto";
+option go_package = "git.badhouseplants.net/badhouseplants/postman-service/pkg/proto";
 
 service Postman {
   rpc SendEmail(Email) returns (google.protobuf.Empty);
