@@ -11,6 +11,7 @@ service Postman {
 message Email {
   string SenderEmail = 1;
   string SenderName = 2;
-  string Message = 3;  
+  string Subject = 3;
+  map<string, string> Message = 4;
 }
 
